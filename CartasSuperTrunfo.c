@@ -124,17 +124,21 @@ int main() {
 
    // Resultados
 
-   printf("Resultados:\n");
+   printf("Comparacao de cartas: PIB PER CAPITA\n");
 
-   printf("Se resultado 1, Carta 1 ganhou, se resultado 0, Carta 2 ganhou:\n");
+   printf("Carta 1 - %s: %.2f\n", nome_cidade1,pib_capita1);
+   printf("Carta 2 - %s: %.2f\n", nome_cidade2,pib_capita2);
 
-   printf("População: %d\n", populacao_cidade1 > populacao_cidade2);
-   printf("Area: %d\n", area_km2_cidade1 > area_km2_cidade2);
-   printf("PIB: %d\n", pib_cidade1 > pib_cidade2);
-   printf("Pontos turisticos: %d\n", pontos_turisticos1 > pontos_turisticos2);
-   printf("Densidade: %d\n", densidade1 < densidade2);
-   printf("PIB per Capita: %d\n", pib_capita1 > pib_capita2);
-   printf("Super: %d", superpoder1 > superpoder2); 
+   if (pib_capita1 > pib_capita2)
+   {
+    printf("Resultado: Carta 1 - %s venceu!\n",nome_cidade1);        // Comparação do maior valor de PIB per Capita
+   }else{
+    printf("Resultado: Carta 2 - %s venceu!\n",nome_cidade2);
+   }
+   
+
+
+
    
 
 
