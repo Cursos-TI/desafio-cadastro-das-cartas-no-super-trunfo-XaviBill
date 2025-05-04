@@ -131,7 +131,7 @@ int main() {
 
    if (pib_capita1 > pib_capita2)
    {
-    printf("Resultado: Carta 1 - %s venceu!\n",nome_cidade1);        // Comparação do maior valor de PIB per Capita
+    printf("Resultado: Carta 1 - %s venceu!\n",nome_cidade1);        //// Comparação do maior valor de PIB per Capita
    }else{
     printf("Resultado: Carta 2 - %s venceu!\n",nome_cidade2);
    }
