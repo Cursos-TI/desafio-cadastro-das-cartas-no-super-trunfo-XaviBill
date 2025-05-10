@@ -38,7 +38,7 @@ int main() {
     scanf("%s", &codigo1);
 
     printf("Digite o nome da cidade da primeira carta: \n");
-    scanf(" %[^\n]", &nome_cidade1);                               // %[^\n] Para ler nomes compostos ex: São Paulo
+    scanf(" %[^\n]", &nome_cidade1);                               /// %[^\n] Para ler nomes compostos ex: São Paulo
 
     printf("Informe a população da primeira carta: \n");
     scanf("%u", &populacao_cidade1);
